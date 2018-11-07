@@ -9,3 +9,5 @@ The scraper then iterates through the list of stocks and looks up latest financi
 To go through the code, start with listIndustry.py, which uses the wikipedia library in Python to get the list of companies from the Wikipedia page for the S&P 500 companies. Note that once executed, you do not need to run this program every time you want the current stock information. The results of this script are stored in s&pIndustries.csv
 
 After that, the script scraper.py is written using BeautifulSoup4, Numpy, Pandas and urllib.request libraries in Python. The results of the scraping are stored in finalScrape.csv. Actually scraping will take time, since a time delay is added after scraping every stock (to prevent issues with the website performance/security)
+
+*To run the code on your machine, download the two Python (.py) source files, and execute them in your Python environment.
