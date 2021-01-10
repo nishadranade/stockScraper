@@ -13,6 +13,8 @@ After that, the script scraper.py is written using BeautifulSoup4, Numpy, Pandas
 <ol>
 <li> To run the code on your machine, download the two Python (.py) source files, and execute them in your Python environment. </li>
 
-<li>Run listIndustries.py first using Python:  ``` python listIndustries.py ``` </li>
+<li> Run listIndustries.py first using Python:  
+      python listIndustries.py </li>
 
-<li>Once it has finished running, a new <em> s&pIndustries.csv </em> file will be created. Then run ``` python scraper.py ``` </li>
+<li> Once it has finished running, a new <em> s&pIndustries.csv </em> file will be created. Then run 
+      python scraper.py </li>
