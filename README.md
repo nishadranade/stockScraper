@@ -10,4 +10,9 @@ To go through the code, start with listIndustry.py, which uses the wikipedia lib
 
 After that, the script scraper.py is written using BeautifulSoup4, Numpy, Pandas and urllib.request libraries in Python. The results of the scraping are stored in finalScrape.csv. Actually scraping will take time, since a time delay is added after scraping every stock (to prevent issues with the website performance/security)
 
-*To run the code on your machine, download the two Python (.py) source files, and execute them in your Python environment.
+<ol>
+<li> To run the code on your machine, download the two Python (.py) source files, and execute them in your Python environment. </li>
+
+<li>Run listIndustries.py first using Python:  ``` python listIndustries.py ``` </li>
+
+<li>Once it has finished running, a new <em> s&pIndustries.csv </em> file will be created. Then run ``` python scraper.py ``` </li>
